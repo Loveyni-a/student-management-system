@@ -58,7 +58,7 @@ int main() {
 
 void addStudent(Student students[], int *count) {
     if (*count >= MAX_STUDENTS) {
-        printf("Cannot add more students. Maximum limit reached.\n");
+        printf("Error!!Cannot add more students. Maximum limit reached.\n");
         return;
     }
     Student newStudent;
